@@ -10,7 +10,7 @@ def MenuPrincipal():
             return opcion
         else:
             print("Opción no válida!!! Vuelva a intentarlo")
-    return
+    
 
 def IngresarMatrices():
     while True:
@@ -23,7 +23,7 @@ def IngresarMatrices():
             return opcion
         else:
             print("Opción no válida!!! Vuelva a intentarlo")
-    return
+    
 
 def crearMatriz(MM):
 
@@ -50,7 +50,7 @@ def operarMatrices ():
             return opcion
         else:
             print("Opción no válida!!! Vuelva a intentarlo")
-    return
+    
 
 def MostrarMatrices ():
     while True:
@@ -63,7 +63,7 @@ def MostrarMatrices ():
             return opcion
         else:
             print("Opción no válida!!! Vuelva a intentarlo")
-    return
+    
 
 def IngresoNumeroValido(mensajeUsuario, mensajeError):
     while(not (numero:=input(mensajeUsuario)).isdigit()):
